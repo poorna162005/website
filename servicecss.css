@@ -1,0 +1,135 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000; /* Set background color to black */
+  color: #fff; /* Set text color to white */
+}
+
+header {
+  background-color: #fff; /* Header background color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #000; /* Bottom border */
+}
+
+header h1 {
+  color: #000; /* Header title color */
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #555; /* Darken color on hover */
+}
+
+main {
+  padding: 20px;
+}
+
+.services-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.services-table th,
+.services-table td {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.services-table th {
+  background-color: #000;
+  color: #fff;
+}
+
+.services-table td {
+  background-color: #333;
+}
+
+.book-appointment {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.book-appointment a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.book-appointment a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+footer {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

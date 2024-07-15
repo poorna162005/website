@@ -1,0 +1,111 @@
+/* CSS for About Us section */
+body {
+  background-color: #000; /* Set background color to black */
+  color: #fff; /* Set text color to white */
+}
+
+.about-section {
+  padding: 20px;
+}
+
+.history {
+  margin-bottom: 40px;
+}
+
+.history h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.history p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.team {
+  padding: 20px;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* Rounded border for images */
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-info {
+  display: none; /* Hide contact info in the about section */
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  clear: both;
+}
+
+/* Styles for header */
+header {
+  background-color: #fff; /* Set background color to white */
+  padding: 10px 20px;
+  border-bottom: 2px solid #000; /* Add bottom border */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000; /* Set logo color to black */
+}
+
+.logo a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-container {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #555; /* Darken color on hover */
+}
